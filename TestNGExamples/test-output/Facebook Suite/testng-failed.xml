@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Facebook Suite]" parallel="tests">
+  <test thread-count="5" name="Chrome Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.swetha.framework.SampleTestNGExample">
+        <methods>
+          <include name="enterPassword"/>
+          <include name="enterUserName"/>
+          <include name="enterURL"/>
+          <include name="closeBrowser"/>
+          <include name="clickLoginButon"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.swetha.framework.SampleTestNGExample -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [Facebook Suite] -->

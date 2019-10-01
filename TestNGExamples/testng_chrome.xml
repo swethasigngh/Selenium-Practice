@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="new id">
+	<test thread-count="5" name="Chrome Test">
+		<classes>
+			<class name="com.swetha.framework.SampleTestNGExample" />
+		</classes>
+	</test> <!-- new test -->
+</suite> <!-- new id -->
